@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <ast.h>
-#include <lexer.h>
-#include <linked_list.h>
-#include <parser.h>
-#include <token.h>
+#include "ast.h"
+#include "lexer.h"
+#include "linked_list.h"
+#include "parser.h"
+#include "token.h"
 
 char *read_file(char *fname) {
   FILE *file = fopen(fname, "r");

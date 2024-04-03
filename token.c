@@ -1,5 +1,5 @@
+#include "token.h"
 #include <string.h>
-#include <token.h>
 
 char *print_token_type(token_type token) {
   switch (token) {

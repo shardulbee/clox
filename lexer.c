@@ -1,6 +1,6 @@
-#include <lexer.h>
+#include "lexer.h"
+#include "token.h"
 #include <stdlib.h>
-#include <token.h>
 
 read_result read_number(char *source, int i) {
   int start = i;

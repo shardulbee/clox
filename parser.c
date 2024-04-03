@@ -1,5 +1,5 @@
-#include <ast.h>
-#include <linked_list.h>
+#include "ast.h"
+#include "linked_list.h"
 #include <stdlib.h>
 
 ast_node *parse(linked_list *tokens) {
